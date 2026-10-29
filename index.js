@@ -46,7 +46,13 @@ const upload = multer({
 let store;
 let writeQueue = Promise.resolve();
 
-app.use(cors({ origin: process.env.CLIENT_ORIGIN?.split(',') || true }));
+const allowedOrigins = new Set([
+  'http://localhost:3000',
+  'https://bookleaf-frontend-nu.vercel.app',
+  ...(process.env.CLIENT_ORIGIN?.split(',').map(origin => origin.trim()).filter(Boolean) || []),
+]);
+
+app.use(cors({ origin: [...allowedOrigins] }));
 app.use(express.json({ limit: '1mb' }));
 
 function persist() {
