@@ -1,0 +1,10 @@
+node_modules/
+build/
+dist/
+.env
+server/data/store.json
+server/data/*.tmp
+server/data/attachments/
+npm-debug.log*
+doc/
+server/

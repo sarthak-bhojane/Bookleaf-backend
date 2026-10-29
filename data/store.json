@@ -1,0 +1,509 @@
+{
+  "authors": [
+    {
+      "id": "AUTH001",
+      "name": "Priya Sharma",
+      "email": "priya.sharma@email.com",
+      "phone": "+91-98765-43210",
+      "city": "Mumbai",
+      "joinedDate": "2023-03-15",
+      "books": [
+        {
+          "id": "BK001",
+          "title": "Whispers of the Ganges",
+          "isbn": "978-93-5XXXX-01-1",
+          "genre": "Literary Fiction",
+          "publicationDate": "2023-06-20",
+          "status": "Published & Live",
+          "mrp": 399,
+          "royaltyPerCopy": 35,
+          "copiesSold": 342,
+          "earned": 11970,
+          "paid": 8400,
+          "pending": 3570,
+          "lastPayout": "2025-10-15",
+          "printPartner": "In-House",
+          "availableOn": [
+            "Amazon India",
+            "Flipkart",
+            "BookLeaf Store"
+          ]
+        },
+        {
+          "id": "BK002",
+          "title": "The Saffron Diaries",
+          "isbn": "978-93-5XXXX-02-8",
+          "genre": "Non-Fiction / Memoir",
+          "publicationDate": "2024-01-10",
+          "status": "Published & Live",
+          "mrp": 450,
+          "royaltyPerCopy": 42,
+          "copiesSold": 189,
+          "earned": 7938,
+          "paid": 7938,
+          "pending": 0,
+          "lastPayout": "2025-12-01",
+          "printPartner": "In-House",
+          "availableOn": [
+            "Amazon India",
+            "BookLeaf Store"
+          ]
+        }
+      ],
+      "passwordHash": "$2a$10$Q94x3A9ItgA.XA7Ap7LVy.7spC0MezWvRFRfFsHlB7VfTQC7XiNTq"
+    },
+    {
+      "id": "AUTH002",
+      "name": "Rohit Kapoor",
+      "email": "rohit.kapoor@email.com",
+      "phone": "+91-87654-32109",
+      "city": "Delhi",
+      "joinedDate": "2022-11-08",
+      "books": [
+        {
+          "id": "BK003",
+          "title": "Code & Karma",
+          "isbn": "978-93-5XXXX-03-5",
+          "genre": "Self-Help / Technology",
+          "publicationDate": "2023-02-14",
+          "status": "Published & Live",
+          "mrp": 350,
+          "royaltyPerCopy": 30,
+          "copiesSold": 876,
+          "earned": 26280,
+          "paid": 21000,
+          "pending": 5280,
+          "lastPayout": "2025-09-01",
+          "printPartner": "Repro India",
+          "availableOn": [
+            "Amazon India",
+            "Flipkart",
+            "Amazon US",
+            "BookLeaf Store"
+          ]
+        },
+        {
+          "id": "BK004",
+          "title": "Startup Sutra",
+          "isbn": "978-93-5XXXX-04-2",
+          "genre": "Business / Entrepreneurship",
+          "publicationDate": "2024-05-22",
+          "status": "Published & Live",
+          "mrp": 499,
+          "royaltyPerCopy": 48,
+          "copiesSold": 1203,
+          "earned": 57744,
+          "paid": 50000,
+          "pending": 7744,
+          "lastPayout": "2025-11-15",
+          "printPartner": "In-House",
+          "availableOn": [
+            "Amazon India",
+            "Flipkart",
+            "Amazon US",
+            "Amazon UK",
+            "BookLeaf Store"
+          ]
+        }
+      ],
+      "passwordHash": "$2a$10$XGPKDALJvsDn5xA32vEW6.2mtzW1QKI34nkjLcqIKk2ScK0eoXISy"
+    },
+    {
+      "id": "AUTH003",
+      "name": "Ananya Reddy",
+      "email": "ananya.reddy@email.com",
+      "phone": "+91-76543-21098",
+      "city": "Hyderabad",
+      "joinedDate": "2024-02-20",
+      "books": [
+        {
+          "id": "BK005",
+          "title": "Between Two Temples",
+          "isbn": "978-93-5XXXX-05-9",
+          "genre": "Historical Fiction",
+          "publicationDate": "2024-07-05",
+          "status": "Published & Live",
+          "mrp": 425,
+          "royaltyPerCopy": 38,
+          "copiesSold": 67,
+          "earned": 2546,
+          "paid": 0,
+          "pending": 2546,
+          "lastPayout": null,
+          "printPartner": "Epitome Books",
+          "availableOn": [
+            "Amazon India",
+            "BookLeaf Store"
+          ]
+        }
+      ],
+      "passwordHash": "$2a$10$ZThofJOTsAJm7uXdqh/4W.JeFoIzJCkE0YbGaqiuZsFpOCA0xA/8S"
+    },
+    {
+      "id": "AUTH004",
+      "name": "Vikram Joshi",
+      "email": "vikram.joshi@email.com",
+      "phone": "+91-65432-10987",
+      "city": "Pune",
+      "joinedDate": "2023-07-12",
+      "books": [
+        {
+          "id": "BK006",
+          "title": "Debugging Life",
+          "isbn": "978-93-5XXXX-06-6",
+          "genre": "Self-Help",
+          "publicationDate": "2023-11-30",
+          "status": "Published & Live",
+          "mrp": 299,
+          "royaltyPerCopy": 25,
+          "copiesSold": 534,
+          "earned": 13350,
+          "paid": 10000,
+          "pending": 3350,
+          "lastPayout": "2025-08-20",
+          "printPartner": "In-House",
+          "availableOn": [
+            "Amazon India",
+            "Flipkart",
+            "BookLeaf Store"
+          ]
+        },
+        {
+          "id": "BK007",
+          "title": "The Last Monsoon",
+          "isbn": "978-93-5XXXX-07-3",
+          "genre": "Poetry",
+          "publicationDate": "2024-08-15",
+          "status": "Published & Live",
+          "mrp": 199,
+          "royaltyPerCopy": 15,
+          "copiesSold": 123,
+          "earned": 1845,
+          "paid": 1845,
+          "pending": 0,
+          "lastPayout": "2025-12-01",
+          "printPartner": "In-House",
+          "availableOn": [
+            "Amazon India",
+            "BookLeaf Store"
+          ]
+        }
+      ],
+      "passwordHash": "$2a$10$./35SGQ/OORf0KJKla1AAO6JeqgsywYTWFpm4VIztE91NFL3E8cYS"
+    },
+    {
+      "id": "AUTH005",
+      "name": "Meera Nair",
+      "email": "meera.nair@email.com",
+      "phone": "+91-54321-09876",
+      "city": "Kochi",
+      "joinedDate": "2023-01-05",
+      "books": [
+        {
+          "id": "BK008",
+          "title": "Cardamom & Chaos",
+          "isbn": "978-93-5XXXX-08-0",
+          "genre": "Contemporary Fiction",
+          "publicationDate": "2023-04-18",
+          "status": "Published & Live",
+          "mrp": 375,
+          "royaltyPerCopy": 32,
+          "copiesSold": 445,
+          "earned": 14240,
+          "paid": 14240,
+          "pending": 0,
+          "lastPayout": "2025-12-01",
+          "printPartner": "Repro India",
+          "availableOn": [
+            "Amazon India",
+            "Flipkart",
+            "BookLeaf Store"
+          ]
+        },
+        {
+          "id": "BK009",
+          "title": "Letters from Lakshadweep",
+          "isbn": "978-93-5XXXX-09-7",
+          "genre": "Travel / Non-Fiction",
+          "publicationDate": "2024-03-01",
+          "status": "Published & Live",
+          "mrp": 550,
+          "royaltyPerCopy": 55,
+          "copiesSold": 201,
+          "earned": 11055,
+          "paid": 8000,
+          "pending": 3055,
+          "lastPayout": "2025-10-15",
+          "printPartner": "In-House",
+          "availableOn": [
+            "Amazon India",
+            "Amazon US",
+            "BookLeaf Store"
+          ]
+        }
+      ],
+      "passwordHash": "$2a$10$aWYF5oLQLyBuvOKM9Isll.TngcK9acjI4rphgk7xTyq.APmKwEZ7W"
+    },
+    {
+      "id": "AUTH006",
+      "name": "Arjun Malhotra",
+      "email": "arjun.malhotra@email.com",
+      "phone": "+91-43210-98765",
+      "city": "Chandigarh",
+      "joinedDate": "2024-06-01",
+      "books": [
+        {
+          "id": "BK010",
+          "title": "Turban Tales",
+          "isbn": "978-93-5XXXX-10-3",
+          "genre": "Humor / Essays",
+          "publicationDate": "2024-09-10",
+          "status": "Published & Live",
+          "mrp": 325,
+          "royaltyPerCopy": 28,
+          "copiesSold": 88,
+          "earned": 2464,
+          "paid": 0,
+          "pending": 2464,
+          "lastPayout": null,
+          "printPartner": "In-House",
+          "availableOn": [
+            "Amazon India",
+            "BookLeaf Store"
+          ]
+        }
+      ],
+      "passwordHash": "$2a$10$Zvb/x8w.pSQwDIc3PWeTm.RlEcagnECF8jCUCEHEduo8NRE.0tWR6"
+    },
+    {
+      "id": "AUTH007",
+      "name": "Sneha Kulkarni",
+      "email": "sneha.kulkarni@email.com",
+      "phone": "+91-32109-87654",
+      "city": "Bangalore",
+      "joinedDate": "2022-09-18",
+      "books": [
+        {
+          "id": "BK011",
+          "title": "The Algorithm of Love",
+          "isbn": "978-93-5XXXX-11-0",
+          "genre": "Romance",
+          "publicationDate": "2022-12-25",
+          "status": "Published & Live",
+          "mrp": 299,
+          "royaltyPerCopy": 25,
+          "copiesSold": 1567,
+          "earned": 39175,
+          "paid": 35000,
+          "pending": 4175,
+          "lastPayout": "2025-11-15",
+          "printPartner": "Repro India",
+          "availableOn": [
+            "Amazon India",
+            "Flipkart",
+            "Amazon US",
+            "BookLeaf Store"
+          ]
+        },
+        {
+          "id": "BK012",
+          "title": "Ctrl+Alt+Delete My Ex",
+          "isbn": "978-93-5XXXX-12-7",
+          "genre": "Romance / Humor",
+          "publicationDate": "2024-02-14",
+          "status": "Published & Live",
+          "mrp": 350,
+          "royaltyPerCopy": 30,
+          "copiesSold": 723,
+          "earned": 21690,
+          "paid": 18000,
+          "pending": 3690,
+          "lastPayout": "2025-10-15",
+          "printPartner": "In-House",
+          "availableOn": [
+            "Amazon India",
+            "Flipkart",
+            "BookLeaf Store"
+          ]
+        },
+        {
+          "id": "BK013",
+          "title": "Midnight in Mysore",
+          "isbn": "978-93-5XXXX-13-4",
+          "genre": "Thriller",
+          "publicationDate": null,
+          "status": "In Production - Cover Design",
+          "mrp": null,
+          "royaltyPerCopy": null,
+          "copiesSold": 0,
+          "earned": 0,
+          "paid": 0,
+          "pending": 0,
+          "lastPayout": null,
+          "printPartner": null,
+          "availableOn": []
+        }
+      ],
+      "passwordHash": "$2a$10$hh4m.cMY7MRw0sZryVNULu8OoSwF0lYNviifjCI1tYjqBtPcwo.hu"
+    },
+    {
+      "id": "AUTH008",
+      "name": "Farhan Sheikh",
+      "email": "farhan.sheikh@email.com",
+      "phone": "+91-21098-76543",
+      "city": "Lucknow",
+      "joinedDate": "2023-10-01",
+      "books": [
+        {
+          "id": "BK014",
+          "title": "Ghazal of the Forgotten",
+          "isbn": "978-93-5XXXX-14-1",
+          "genre": "Poetry / Urdu Literature",
+          "publicationDate": "2024-01-26",
+          "status": "Published & Live",
+          "mrp": 250,
+          "royaltyPerCopy": 20,
+          "copiesSold": 156,
+          "earned": 3120,
+          "paid": 3120,
+          "pending": 0,
+          "lastPayout": "2025-12-01",
+          "printPartner": "Epitome Books",
+          "availableOn": [
+            "Amazon India",
+            "BookLeaf Store"
+          ]
+        }
+      ],
+      "passwordHash": "$2a$10$HWuxUjUziTH2syno0r7u..ThllUpdVWzI8EoqVSNmcBV1XzjCj0U2"
+    },
+    {
+      "id": "AUTH009",
+      "name": "Kavita Deshmukh",
+      "email": "kavita.deshmukh@email.com",
+      "phone": "+91-10987-65432",
+      "city": "Nagpur",
+      "joinedDate": "2024-04-10",
+      "books": [
+        {
+          "id": "BK015",
+          "title": "Raising Roots",
+          "isbn": "978-93-5XXXX-15-8",
+          "genre": "Parenting / Non-Fiction",
+          "publicationDate": null,
+          "status": "In Production - Typesetting",
+          "mrp": null,
+          "royaltyPerCopy": null,
+          "copiesSold": 0,
+          "earned": 0,
+          "paid": 0,
+          "pending": 0,
+          "lastPayout": null,
+          "printPartner": null,
+          "availableOn": []
+        },
+        {
+          "id": "BK016",
+          "title": "The Nagpur Notebooks",
+          "isbn": "978-93-5XXXX-16-5",
+          "genre": "Essays / Memoir",
+          "publicationDate": "2024-11-05",
+          "status": "Published & Live",
+          "mrp": 299,
+          "royaltyPerCopy": 25,
+          "copiesSold": 34,
+          "earned": 850,
+          "paid": 0,
+          "pending": 850,
+          "lastPayout": null,
+          "printPartner": "In-House",
+          "availableOn": [
+            "Amazon India",
+            "BookLeaf Store"
+          ]
+        }
+      ],
+      "passwordHash": "$2a$10$WfdB5d8OBtx.liWvORYroutV9zcy9W3GfaqksQdGQBXi7tgHQrs4a"
+    },
+    {
+      "id": "AUTH010",
+      "name": "Diya Chatterjee",
+      "email": "diya.chatterjee@email.com",
+      "phone": "+91-09876-54321",
+      "city": "Kolkata",
+      "joinedDate": "2023-05-22",
+      "books": [
+        {
+          "id": "BK017",
+          "title": "Durga’s Daughters",
+          "isbn": "978-93-5XXXX-17-2",
+          "genre": "Literary Fiction",
+          "publicationDate": "2023-10-15",
+          "status": "Published & Live",
+          "mrp": 475,
+          "royaltyPerCopy": 45,
+          "copiesSold": 612,
+          "earned": 27540,
+          "paid": 25000,
+          "pending": 2540,
+          "lastPayout": "2025-11-15",
+          "printPartner": "Repro India",
+          "availableOn": [
+            "Amazon India",
+            "Flipkart",
+            "Amazon US",
+            "BookLeaf Store"
+          ]
+        },
+        {
+          "id": "BK018",
+          "title": "Howrah Nights",
+          "isbn": "978-93-5XXXX-18-9",
+          "genre": "Crime / Thriller",
+          "publicationDate": "2025-01-20",
+          "status": "Published & Live",
+          "mrp": 399,
+          "royaltyPerCopy": 35,
+          "copiesSold": 45,
+          "earned": 1575,
+          "paid": 0,
+          "pending": 1575,
+          "lastPayout": null,
+          "printPartner": "In-House",
+          "availableOn": [
+            "Amazon India",
+            "BookLeaf Store"
+          ]
+        }
+      ],
+      "passwordHash": "$2a$10$0wsouaJknk/gR8tVsSwmeeLPPIeM13mojWyetCkNhf6Umo.JukIXS"
+    }
+  ],
+  "admin": {
+    "id": "ADMIN001",
+    "name": "BookLeaf Operations",
+    "email": "admin@bookleaf.com",
+    "role": "admin",
+    "passwordHash": "$2a$10$H5dAWgZWBCJEyYMmShwinOguZIkVR6JM.V65prb5Am49nnNC.Hnau"
+  },
+  "tickets": [
+    {
+      "id": "TKT-MVOUQ0P9-GHL4",
+      "authorId": "AUTH001",
+      "authorName": "Priya Sharma",
+      "bookId": null,
+      "subject": "demo",
+      "description": "demo",
+      "status": "Open",
+      "category": "General Inquiry",
+      "categorySource": "rules",
+      "priority": "Low",
+      "prioritySource": "rules",
+      "assignee": "BookLeaf Operations",
+      "messages": [],
+      "notes": [],
+      "createdAt": "2026-10-26T06:04:13.198Z",
+      "updatedAt": "2026-10-26T06:06:05.676Z"
+    }
+  ]
+}
